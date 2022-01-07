@@ -22,8 +22,10 @@ public class SHA1 {
             output = md.digest();
             System.out.println();
             System.out.println("SHA1(\"" +input+"\") = " +bytesToHex(output));
-            System.out.println(""); }
-            catch (Exception e) {
+            System.out.println(""); 
+        }
+            
+        catch (Exception e) {
             System.out.println("Exception: " +e);
         }
     }

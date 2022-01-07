@@ -14,7 +14,6 @@ public class MD5 {
             System.out.println("MD5(\""+input+"\") = " +bytesToHex(output));
             input = "abc";
             md.update(input.getBytes());
-            37
             output = md.digest();
             System.out.println();
             System.out.println("MD5(\""+input+"\") = " +bytesToHex(output));
@@ -22,8 +21,8 @@ public class MD5 {
             md.update(input.getBytes());
             output = md.digest();
             System.out.println();
-            System.out.println("MD5(\"" +input+"\") = "
-            +bytesToHex(output)); System.out.println("");
+            System.out.println("MD5(\"" +input+"\") = " +bytesToHex(output));
+            System.out.println("");
         }
         catch (Exception e) {
             System.out.println("Exception: " +e); 
